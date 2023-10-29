@@ -43,6 +43,7 @@ class MongoUserDataSource(
         } ?: emptyList()
     }
 
+    //Todo: Function always returning true
     override suspend fun deleteUserByUserId(userId: String): Boolean {
         return safeDatabaseOperation {
             usersCollection.deleteOne(
@@ -72,6 +73,7 @@ class MongoUserDataSource(
         } ?: false
     }
 
+    //Todo: Function always returning null
     override suspend fun getUserById(userId: String): User? {
         return safeDatabaseOperation {
             usersCollection.find(
