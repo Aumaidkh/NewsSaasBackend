@@ -2,7 +2,7 @@ package com.hopcape.routing.common.users.articles
 
 import com.hopcape.data.response.article.ArticlesResponse
 import com.hopcape.domain.repository.ArticleRepository
-import com.hopcape.routing.utils.RouterHelper.CommonRoutes.ALL_ARTICLES
+import com.hopcape.routing.utils.RouterHelper.CommonRoutes.ALL_ARTICLES_ROUTE
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
@@ -13,7 +13,7 @@ import org.koin.ktor.ext.inject
 fun Routing.getAllArticles(){
     val repository by inject<ArticleRepository>()
     authenticate {
-        get(ALL_ARTICLES){
+        get(ALL_ARTICLES_ROUTE){
 
             val articles =
                 repository.getAllArticles()

@@ -46,7 +46,7 @@ class MongoArticleDatasource(
         return safeDatabaseOperation {
             articleCollection
                 .deleteOne(
-                    Filters.eq(ArticleModel::id.name, articleModel.id)
+                    Filters.eq("_id", articleModel.id)
                 )
                 .wasAcknowledged()
         } ?: false
@@ -91,9 +91,9 @@ class MongoArticleDatasource(
     override suspend fun updateArticle(articleModel: ArticleModel): Boolean {
         return safeDatabaseOperation {
             articleCollection
-                .updateOne(
-                    Filters.eq(ArticleModel::id.name, articleModel.id),
-                    listOf(
+                .findOneAndUpdate(
+                    Filters.eq("_id", articleModel.id),
+                    Updates.combine(
                         Updates.set(ArticleModel::category.name, articleModel.category),
                         Updates.set(ArticleModel::title.name, articleModel.title),
                         Updates.set(ArticleModel::subtitle.name, articleModel.subtitle),
@@ -102,8 +102,8 @@ class MongoArticleDatasource(
                         Updates.set(ArticleModel::content.name, articleModel.content)
                     )
                 )
-                .wasAcknowledged()
-        } ?: false
+            true
+        } == true
     }
 
     /**

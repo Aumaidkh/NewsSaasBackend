@@ -7,7 +7,7 @@ import org.bson.types.ObjectId
 
 data class ArticleModel(
     @BsonId
-    val id: ObjectId = ObjectId(),
+    val id: String = ObjectId().toHexString(),
     val title: String,
     val subtitle: String,
     val thumbnail: String,
@@ -17,7 +17,7 @@ data class ArticleModel(
     val content: String
 ) {
     fun toArticleResponse() = ArticleResponse(
-        id = id.toHexString(),
+        id = id,
         title = title,
         subtitle = subtitle,
         thumbnail = thumbnail,
