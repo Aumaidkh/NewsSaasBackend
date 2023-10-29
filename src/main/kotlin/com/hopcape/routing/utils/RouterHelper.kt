@@ -9,7 +9,18 @@ object RouterHelper {
 
     }
 
+    object Params{
+        const val ARTICLE_ID = "articleId"
+        const val ARTICLE_TITLE = "title"
+    }
+
     object AdminRoutes {
         const val GET_ALL_USERS = "/admin/users"
+        const val ADD_ARTICLE = "/admin/add-article"
+        const val DELETE_ARTICLE = "/admin/article"
+    }
+
+    object CommonRoutes {
+        const val ARTICLE_ROUTE = "/article"
     }
 }
