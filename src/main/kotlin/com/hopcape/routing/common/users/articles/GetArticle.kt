@@ -1,6 +1,5 @@
-package com.hopcape.routing.admin.articles
+package com.hopcape.routing.common.users.articles
 
-import com.hopcape.data.response.article.ArticleResponse
 import com.hopcape.domain.repository.ArticleRepository
 import com.hopcape.routing.utils.RouterHelper.CommonRoutes.ARTICLE_ROUTE
 import com.hopcape.routing.utils.RouterHelper.Params.ARTICLE_ID

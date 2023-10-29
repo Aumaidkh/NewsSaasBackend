@@ -1,5 +1,7 @@
 package com.hopcape.routing.common
 
+import com.hopcape.routing.common.users.articles.getAllArticles
+import com.hopcape.routing.common.users.articles.getArticle
 import com.hopcape.routing.common.users.updateUser
 import io.ktor.server.application.*
 import io.ktor.server.routing.*
@@ -7,5 +9,7 @@ import io.ktor.server.routing.*
 fun Application.commonRoutes(){
     routing {
         updateUser()
+        getArticle()
+        getAllArticles()
     }
 }

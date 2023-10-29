@@ -22,5 +22,6 @@ object RouterHelper {
 
     object CommonRoutes {
         const val ARTICLE_ROUTE = "/article"
+        const val ALL_ARTICLES = "/articles"
     }
 }
