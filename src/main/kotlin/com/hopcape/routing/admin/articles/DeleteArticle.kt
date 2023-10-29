@@ -1,6 +1,7 @@
 package com.hopcape.routing.admin.articles
 
 import com.hopcape.domain.repository.ArticleRepository
+import com.hopcape.routing.utils.RouterHelper.AdminRoutes.ARTICLE_ROUTE
 import com.hopcape.routing.utils.RouterHelper.AdminRoutes.DELETE_ARTICLE
 import com.hopcape.routing.utils.RouterHelper.Params.ARTICLE_ID
 import io.ktor.http.*
@@ -18,7 +19,7 @@ import org.koin.ktor.ext.inject
 fun Routing.deleteArticle(){
     val repository by inject<ArticleRepository>()
     authenticate {
-        delete(DELETE_ARTICLE) {
+        delete(ARTICLE_ROUTE) {
             val articleId = call.parameters[ARTICLE_ID] ?: kotlin.run {
                 call.respond(HttpStatusCode.NotFound)
                 return@delete

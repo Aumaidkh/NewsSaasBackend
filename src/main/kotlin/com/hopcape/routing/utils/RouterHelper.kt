@@ -19,9 +19,7 @@ object RouterHelper {
 
     object AdminRoutes {
         const val GET_ALL_USERS = "/admin/users"
-        const val ADD_ARTICLE = "/admin/add-article"
-        const val DELETE_ARTICLE = "/admin/article"
-        const val UPDATE_ARTICLE = "/admin/article"
+        const val ARTICLE_ROUTE = "/admin/article"
     }
 
     object CommonRoutes {

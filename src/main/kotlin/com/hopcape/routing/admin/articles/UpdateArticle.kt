@@ -3,6 +3,7 @@ package com.hopcape.routing.admin.articles
 import com.hopcape.data.article.ArticleModel
 import com.hopcape.data.request.article.UpdateArticleRequest
 import com.hopcape.domain.repository.ArticleRepository
+import com.hopcape.routing.utils.RouterHelper.AdminRoutes.ARTICLE_ROUTE
 import com.hopcape.routing.utils.RouterHelper.AdminRoutes.UPDATE_ARTICLE
 import io.ktor.http.*
 import io.ktor.server.application.*
@@ -15,7 +16,7 @@ import org.koin.ktor.ext.inject
 fun Routing.updateArticle(){
     val repository by inject<ArticleRepository>()
     authenticate {
-        put(UPDATE_ARTICLE){
+        put(ARTICLE_ROUTE){
             val request = runCatching { call.receiveNullable<UpdateArticleRequest?>() }.getOrNull() ?: kotlin.run {
                 call.respond(
                     status = HttpStatusCode.BadRequest,

@@ -3,7 +3,7 @@ package com.hopcape.routing.admin.articles
 import com.hopcape.data.article.ArticleModel
 import com.hopcape.data.request.article.AddArticleRequest
 import com.hopcape.domain.repository.ArticleRepository
-import com.hopcape.routing.utils.RouterHelper.AdminRoutes.ADD_ARTICLE
+import com.hopcape.routing.utils.RouterHelper.AdminRoutes.ARTICLE_ROUTE
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
@@ -22,7 +22,7 @@ fun Routing.addArticle() {
 
     // Authentication is required to access this route
     authenticate {
-        post(ADD_ARTICLE) {
+        post(ARTICLE_ROUTE) {
             // Attempt to receive and parse an 'AddArticleRequest' from the incoming request
             val request = runCatching { call.receiveNullable<AddArticleRequest?>() }.getOrNull() ?: kotlin.run {
                 // Respond with a Bad Request status and an error message if the request is invalid
