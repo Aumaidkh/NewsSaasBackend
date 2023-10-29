@@ -4,7 +4,6 @@ import com.hopcape.data.article.ArticleModel
 import com.hopcape.data.request.article.UpdateArticleRequest
 import com.hopcape.domain.repository.ArticleRepository
 import com.hopcape.routing.utils.RouterHelper.AdminRoutes.ARTICLE_ROUTE
-import com.hopcape.routing.utils.RouterHelper.AdminRoutes.UPDATE_ARTICLE
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
@@ -43,7 +42,7 @@ fun Routing.updateArticle(){
                 category = request.category ?: article.category,
                 content = request.content ?: article.content,
                 thumbnail = request.thumbnail ?: article.thumbnail,
-                sponsored = request.sponsored ?: article.sponsored,
+                sponsored = request.sponsored,
                 date = request.date ?: article.date
             )
 

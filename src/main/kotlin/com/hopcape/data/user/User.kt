@@ -13,7 +13,7 @@ import org.bson.types.ObjectId
  * @param salt - Salt that was used while hashing the password
  * */
 data class User(
-    @BsonId val id: ObjectId = ObjectId(),
+    @BsonId val id: String = ObjectId().toHexString(),
     val email: String,
     val password: String,
     val salt: String = "",
@@ -24,7 +24,7 @@ data class User(
 
     fun toSerializableUser(): SerializableUser {
         return SerializableUser(
-            id = id.toHexString(),
+            id = id,
             email = email,
             password = password,
             salt = salt,

@@ -80,7 +80,7 @@ class UserRepositoryImpl(
     }
 
     override suspend fun updateUser(user: User): Boolean {
-        return userDataSource.updatedUser(user)
+        return userDataSource.updateUser(user)
     }
 
     override suspend fun getUserById(userId: String): User? {

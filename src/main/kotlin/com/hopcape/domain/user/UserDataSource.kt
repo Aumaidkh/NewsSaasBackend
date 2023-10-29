@@ -45,7 +45,7 @@ interface UserDataSource {
      * Updates a
      * @param user
      * @return [Boolean] whether user was updated or not*/
-    suspend fun updatedUser(user: User): Boolean
+    suspend fun updateUser(user: User): Boolean
 
 
     /**

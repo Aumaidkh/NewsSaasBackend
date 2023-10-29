@@ -2,7 +2,6 @@ package com.hopcape.routing.admin.articles
 
 import com.hopcape.domain.repository.ArticleRepository
 import com.hopcape.routing.utils.RouterHelper.AdminRoutes.ARTICLE_ROUTE
-import com.hopcape.routing.utils.RouterHelper.AdminRoutes.DELETE_ARTICLE
 import com.hopcape.routing.utils.RouterHelper.Params.ARTICLE_ID
 import io.ktor.http.*
 import io.ktor.server.application.*

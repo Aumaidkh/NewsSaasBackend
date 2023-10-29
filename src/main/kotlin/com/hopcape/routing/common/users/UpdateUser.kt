@@ -1,7 +1,9 @@
 package com.hopcape.routing.common.users
 
 import com.hopcape.data.request.user.UpdateUserRequest
+import com.hopcape.data.user.User
 import com.hopcape.domain.repository.UserRepository
+import com.hopcape.routing.utils.RouterHelper.CommonRoutes.USER_ROUTE
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
@@ -13,50 +15,47 @@ import org.koin.ktor.ext.inject
 fun Routing.updateUser(){
     val repository by inject<UserRepository>()
     authenticate{
-        post("/user/update"){
-            val userId = call.parameters["id"]
-            if (userId == null){
-                call.respond(HttpStatusCode.NotFound)
-                return@post
-            }
+        put(USER_ROUTE){
             val request = runCatching { call.receiveNullable<UpdateUserRequest?>() }.getOrNull() ?: kotlin.run {
                 call.respond(
                     status = HttpStatusCode.BadRequest,
                     message = "Invalid Request, Please check all the parameters"
                 )
-                return@post
+                return@put
             }
 
             val user =
-                repository.getUserById(userId)
+                repository.getUserById(request.id)
 
             if (user == null){
                 call.respond(
                     status = HttpStatusCode.NotFound,
                     message = "User not Found"
                 )
-                return@post
+                return@put
             }
 
-            val userUpdated = repository.updateUser(
-                user = user.copy(
-                    fullName = request.fullName,
-                    phoneNumber = request.phoneNumber,
-                    profilePic = request.profilePic
-                )
+            val updatedUser = User(
+                id = user.id,
+                fullName = request.fullName ?: user.fullName,
+                email = user.email,
+                password = user.password,
+                phoneNumber = request.phoneNumber ?: user.phoneNumber,
+                profilePic = request.profilePic ?: user.profilePic
             )
+            val userUpdated = repository.updateUser(user = updatedUser)
 
             if (!userUpdated){
                 call.respond(
                     status = HttpStatusCode.Conflict,
                     message = "Something went wrong while updating the user"
                 )
-                return@post
+                return@put
             }
 
             call.respond(
                 status = HttpStatusCode.OK,
-                message = user
+                message = user.toSerializableUser()
             )
         }
     }

@@ -43,11 +43,10 @@ class MongoUserDataSource(
         } ?: emptyList()
     }
 
-    //Todo: Function always returning true
     override suspend fun deleteUserByUserId(userId: String): Boolean {
         return safeDatabaseOperation {
             usersCollection.deleteOne(
-                eq(User::id.name,userId)
+                eq("_id",userId)
             ).wasAcknowledged()
         } ?: false
     }
@@ -60,7 +59,7 @@ class MongoUserDataSource(
         } ?: false
     }
 
-    override suspend fun updatedUser(user: User): Boolean {
+    override suspend fun updateUser(user: User): Boolean {
         return safeDatabaseOperation {
             usersCollection.updateOne(
                 eq(User::email.name,user.email),
@@ -73,11 +72,10 @@ class MongoUserDataSource(
         } ?: false
     }
 
-    //Todo: Function always returning null
     override suspend fun getUserById(userId: String): User? {
         return safeDatabaseOperation {
             usersCollection.find(
-                eq(User::id.name,ObjectId(userId))
+                eq("_id",userId)
             ).firstOrNull()
         }
     }

@@ -1,7 +1,6 @@
 package com.hopcape.routing.user
 
 import com.hopcape.data.request.user.SignInRequest
-import com.hopcape.data.request.user.SignUpRequest
 import com.hopcape.data.response.SignInResponse
 import com.hopcape.domain.repository.UserRepository
 import com.hopcape.domain.security.token.TokenConfig
