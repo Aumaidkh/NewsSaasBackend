@@ -1,0 +1,309 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.hopcape.data.article////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/index.html
+$dokka.location:com.hopcape.data.article/ArticleModel///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/index.html
+$dokka.location:com.hopcape.data.article/ArticleModel/ArticleModel/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.Boolean#kotlin.String#kotlin.Double#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/-article-model.html
+$dokka.location:com.hopcape.data.article/ArticleModel/category/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/category.html
+$dokka.location:com.hopcape.data.article/ArticleModel/content/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/content.html
+$dokka.location:com.hopcape.data.article/ArticleModel/date/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/date.html
+$dokka.location:com.hopcape.data.article/ArticleModel/id/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/id.html
+$dokka.location:com.hopcape.data.article/ArticleModel/sponsored/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/sponsored.html
+$dokka.location:com.hopcape.data.article/ArticleModel/subtitle/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/subtitle.html
+$dokka.location:com.hopcape.data.article/ArticleModel/thumbnail/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/thumbnail.html
+$dokka.location:com.hopcape.data.article/ArticleModel/title/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/title.html
+$dokka.location:com.hopcape.data.article/ArticleModel/toArticleResponse/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-model/to-article-response.html
+$dokka.location:com.hopcape.data.article/ArticleRepositoryImpl///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-repository-impl/index.html
+$dokka.location:com.hopcape.data.article/ArticleRepositoryImpl/ArticleRepositoryImpl/#com.hopcape.domain.article.ArticleDataSource/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-repository-impl/-article-repository-impl.html
+$dokka.location:com.hopcape.data.article/ArticleRepositoryImpl/deleteArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-repository-impl/delete-article.html
+$dokka.location:com.hopcape.data.article/ArticleRepositoryImpl/getAllArticles/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-repository-impl/get-all-articles.html
+$dokka.location:com.hopcape.data.article/ArticleRepositoryImpl/getArticleById/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-repository-impl/get-article-by-id.html
+$dokka.location:com.hopcape.data.article/ArticleRepositoryImpl/getArticleByQuery/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-repository-impl/get-article-by-query.html
+$dokka.location:com.hopcape.data.article/ArticleRepositoryImpl/getPagedArticles/#kotlin.Int#kotlin.Int/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-repository-impl/get-paged-articles.html
+$dokka.location:com.hopcape.data.article/ArticleRepositoryImpl/insertArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-repository-impl/insert-article.html
+$dokka.location:com.hopcape.data.article/ArticleRepositoryImpl/updateArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-article-repository-impl/update-article.html
+$dokka.location:com.hopcape.data.article/MongoArticleDatasource///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-mongo-article-datasource/index.html
+$dokka.location:com.hopcape.data.article/MongoArticleDatasource/MongoArticleDatasource/#com.mongodb.kotlin.client.coroutine.MongoDatabase/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-mongo-article-datasource/-mongo-article-datasource.html
+$dokka.location:com.hopcape.data.article/MongoArticleDatasource/deleteArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-mongo-article-datasource/delete-article.html
+$dokka.location:com.hopcape.data.article/MongoArticleDatasource/getAllArticles/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-mongo-article-datasource/get-all-articles.html
+$dokka.location:com.hopcape.data.article/MongoArticleDatasource/getArticleById/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-mongo-article-datasource/get-article-by-id.html
+$dokka.location:com.hopcape.data.article/MongoArticleDatasource/getArticleByQuery/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-mongo-article-datasource/get-article-by-query.html
+$dokka.location:com.hopcape.data.article/MongoArticleDatasource/getPagedArticles/#kotlin.Int#kotlin.Int/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-mongo-article-datasource/get-paged-articles.html
+$dokka.location:com.hopcape.data.article/MongoArticleDatasource/insertArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-mongo-article-datasource/insert-article.html
+$dokka.location:com.hopcape.data.article/MongoArticleDatasource/updateArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.article/-mongo-article-datasource/update-article.html
+$dokka.location:com.hopcape.data.request.article////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/index.html
+$dokka.location:com.hopcape.data.request.article/AddArticleRequest///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-add-article-request/index.html
+$dokka.location:com.hopcape.data.request.article/AddArticleRequest/AddArticleRequest/#kotlin.String#kotlin.String#kotlin.Double#kotlin.String#kotlin.String#kotlin.String#kotlin.Boolean/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-add-article-request/-add-article-request.html
+$dokka.location:com.hopcape.data.request.article/AddArticleRequest/category/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-add-article-request/category.html
+$dokka.location:com.hopcape.data.request.article/AddArticleRequest/content/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-add-article-request/content.html
+$dokka.location:com.hopcape.data.request.article/AddArticleRequest/date/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-add-article-request/date.html
+$dokka.location:com.hopcape.data.request.article/AddArticleRequest/sponsored/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-add-article-request/sponsored.html
+$dokka.location:com.hopcape.data.request.article/AddArticleRequest/subtitle/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-add-article-request/subtitle.html
+$dokka.location:com.hopcape.data.request.article/AddArticleRequest/thumbnail/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-add-article-request/thumbnail.html
+$dokka.location:com.hopcape.data.request.article/AddArticleRequest/title/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-add-article-request/title.html
+$dokka.location:com.hopcape.data.request.article/AddArticleRequest/toArticleResponse/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-add-article-request/to-article-response.html
+$dokka.location:com.hopcape.data.request.article/UpdateArticleRequest///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-update-article-request/index.html
+$dokka.location:com.hopcape.data.request.article/UpdateArticleRequest/UpdateArticleRequest/#kotlin.String#kotlin.String?#kotlin.String?#kotlin.Double?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.Boolean/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-update-article-request/-update-article-request.html
+$dokka.location:com.hopcape.data.request.article/UpdateArticleRequest/category/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-update-article-request/category.html
+$dokka.location:com.hopcape.data.request.article/UpdateArticleRequest/content/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-update-article-request/content.html
+$dokka.location:com.hopcape.data.request.article/UpdateArticleRequest/date/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-update-article-request/date.html
+$dokka.location:com.hopcape.data.request.article/UpdateArticleRequest/id/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-update-article-request/id.html
+$dokka.location:com.hopcape.data.request.article/UpdateArticleRequest/sponsored/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-update-article-request/sponsored.html
+$dokka.location:com.hopcape.data.request.article/UpdateArticleRequest/subtitle/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-update-article-request/subtitle.html
+$dokka.location:com.hopcape.data.request.article/UpdateArticleRequest/thumbnail/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-update-article-request/thumbnail.html
+$dokka.location:com.hopcape.data.request.article/UpdateArticleRequest/title/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.article/-update-article-request/title.html
+$dokka.location:com.hopcape.data.request.user////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/index.html
+$dokka.location:com.hopcape.data.request.user/SignInRequest///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-in-request/index.html
+$dokka.location:com.hopcape.data.request.user/SignInRequest/SignInRequest/#kotlin.String#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-in-request/-sign-in-request.html
+$dokka.location:com.hopcape.data.request.user/SignInRequest/email/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-in-request/email.html
+$dokka.location:com.hopcape.data.request.user/SignInRequest/password/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-in-request/password.html
+$dokka.location:com.hopcape.data.request.user/SignUpRequest///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-up-request/index.html
+$dokka.location:com.hopcape.data.request.user/SignUpRequest/SignUpRequest/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-up-request/-sign-up-request.html
+$dokka.location:com.hopcape.data.request.user/SignUpRequest/email/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-up-request/email.html
+$dokka.location:com.hopcape.data.request.user/SignUpRequest/fullName/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-up-request/full-name.html
+$dokka.location:com.hopcape.data.request.user/SignUpRequest/password/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-up-request/password.html
+$dokka.location:com.hopcape.data.request.user/SignUpRequest/phoneNumber/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-up-request/phone-number.html
+$dokka.location:com.hopcape.data.request.user/SignUpRequest/profilePic/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-sign-up-request/profile-pic.html
+$dokka.location:com.hopcape.data.request.user/UpdateUserRequest///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-update-user-request/index.html
+$dokka.location:com.hopcape.data.request.user/UpdateUserRequest/UpdateUserRequest/#kotlin.String#kotlin.String?#kotlin.String?#kotlin.String?/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-update-user-request/-update-user-request.html
+$dokka.location:com.hopcape.data.request.user/UpdateUserRequest/fullName/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-update-user-request/full-name.html
+$dokka.location:com.hopcape.data.request.user/UpdateUserRequest/id/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-update-user-request/id.html
+$dokka.location:com.hopcape.data.request.user/UpdateUserRequest/phoneNumber/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-update-user-request/phone-number.html
+$dokka.location:com.hopcape.data.request.user/UpdateUserRequest/profilePic/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.request.user/-update-user-request/profile-pic.html
+$dokka.location:com.hopcape.data.response.article////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/index.html
+$dokka.location:com.hopcape.data.response.article/ArticleResponse///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-article-response/index.html
+$dokka.location:com.hopcape.data.response.article/ArticleResponse/ArticleResponse/#kotlin.String#kotlin.String#kotlin.Long#kotlin.String#kotlin.String#kotlin.String#kotlin.Boolean#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-article-response/-article-response.html
+$dokka.location:com.hopcape.data.response.article/ArticleResponse/category/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-article-response/category.html
+$dokka.location:com.hopcape.data.response.article/ArticleResponse/content/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-article-response/content.html
+$dokka.location:com.hopcape.data.response.article/ArticleResponse/date/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-article-response/date.html
+$dokka.location:com.hopcape.data.response.article/ArticleResponse/id/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-article-response/id.html
+$dokka.location:com.hopcape.data.response.article/ArticleResponse/sponsored/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-article-response/sponsored.html
+$dokka.location:com.hopcape.data.response.article/ArticleResponse/subtitle/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-article-response/subtitle.html
+$dokka.location:com.hopcape.data.response.article/ArticleResponse/thumbnail/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-article-response/thumbnail.html
+$dokka.location:com.hopcape.data.response.article/ArticleResponse/title/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-article-response/title.html
+$dokka.location:com.hopcape.data.response.article/ArticlesResponse///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-articles-response/index.html
+$dokka.location:com.hopcape.data.response.article/ArticlesResponse/ArticlesResponse/#kotlin.collections.List[com.hopcape.data.response.article.ArticleResponse]/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-articles-response/-articles-response.html
+$dokka.location:com.hopcape.data.response.article/ArticlesResponse/articles/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response.article/-articles-response/articles.html
+$dokka.location:com.hopcape.data.response////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/index.html
+$dokka.location:com.hopcape.data.response/GetUsersResponse///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-get-users-response/index.html
+$dokka.location:com.hopcape.data.response/GetUsersResponse/GetUsersResponse/#kotlin.collections.List[com.hopcape.data.response.SerializableUser]/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-get-users-response/-get-users-response.html
+$dokka.location:com.hopcape.data.response/GetUsersResponse/users/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-get-users-response/users.html
+$dokka.location:com.hopcape.data.response/SerializableUser///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-serializable-user/index.html
+$dokka.location:com.hopcape.data.response/SerializableUser/SerializableUser/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String?#kotlin.String?/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-serializable-user/-serializable-user.html
+$dokka.location:com.hopcape.data.response/SerializableUser/email/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-serializable-user/email.html
+$dokka.location:com.hopcape.data.response/SerializableUser/fullName/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-serializable-user/full-name.html
+$dokka.location:com.hopcape.data.response/SerializableUser/id/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-serializable-user/id.html
+$dokka.location:com.hopcape.data.response/SerializableUser/password/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-serializable-user/password.html
+$dokka.location:com.hopcape.data.response/SerializableUser/phoneNumber/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-serializable-user/phone-number.html
+$dokka.location:com.hopcape.data.response/SerializableUser/profilePic/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-serializable-user/profile-pic.html
+$dokka.location:com.hopcape.data.response/SerializableUser/salt/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-serializable-user/salt.html
+$dokka.location:com.hopcape.data.response/SignInResponse///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-sign-in-response/index.html
+$dokka.location:com.hopcape.data.response/SignInResponse/SignInResponse/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-sign-in-response/-sign-in-response.html
+$dokka.location:com.hopcape.data.response/SignInResponse/token/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.response/-sign-in-response/token.html
+$dokka.location:com.hopcape.data.user////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/index.html
+$dokka.location:com.hopcape.data.user//safeDatabaseOperation/#kotlin.coroutines.SuspendFunction0[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/safe-database-operation.html
+$dokka.location:com.hopcape.data.user/MongoUserDataSource///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-mongo-user-data-source/index.html
+$dokka.location:com.hopcape.data.user/MongoUserDataSource/MongoUserDataSource/#com.mongodb.kotlin.client.coroutine.MongoDatabase/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-mongo-user-data-source/-mongo-user-data-source.html
+$dokka.location:com.hopcape.data.user/MongoUserDataSource/deleteUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-mongo-user-data-source/delete-user.html
+$dokka.location:com.hopcape.data.user/MongoUserDataSource/deleteUserByEmail/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-mongo-user-data-source/delete-user-by-email.html
+$dokka.location:com.hopcape.data.user/MongoUserDataSource/deleteUserByUserId/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-mongo-user-data-source/delete-user-by-user-id.html
+$dokka.location:com.hopcape.data.user/MongoUserDataSource/getAllUsers/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-mongo-user-data-source/get-all-users.html
+$dokka.location:com.hopcape.data.user/MongoUserDataSource/getUserByEmail/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-mongo-user-data-source/get-user-by-email.html
+$dokka.location:com.hopcape.data.user/MongoUserDataSource/getUserById/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-mongo-user-data-source/get-user-by-id.html
+$dokka.location:com.hopcape.data.user/MongoUserDataSource/insertUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-mongo-user-data-source/insert-user.html
+$dokka.location:com.hopcape.data.user/MongoUserDataSource/updateUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-mongo-user-data-source/update-user.html
+$dokka.location:com.hopcape.data.user/User///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user/index.html
+$dokka.location:com.hopcape.data.user/User/User/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String?#kotlin.String?/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user/-user.html
+$dokka.location:com.hopcape.data.user/User/email/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user/email.html
+$dokka.location:com.hopcape.data.user/User/fullName/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user/full-name.html
+$dokka.location:com.hopcape.data.user/User/id/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user/id.html
+$dokka.location:com.hopcape.data.user/User/password/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user/password.html
+$dokka.location:com.hopcape.data.user/User/phoneNumber/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user/phone-number.html
+$dokka.location:com.hopcape.data.user/User/profilePic/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user/profile-pic.html
+$dokka.location:com.hopcape.data.user/User/salt/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user/salt.html
+$dokka.location:com.hopcape.data.user/User/toSerializableUser/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user/to-serializable-user.html
+$dokka.location:com.hopcape.data.user/UserRepositoryImpl///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user-repository-impl/index.html
+$dokka.location:com.hopcape.data.user/UserRepositoryImpl/UserRepositoryImpl/#com.hopcape.domain.user.UserDataSource#com.hopcape.domain.security.token.TokenService#com.hopcape.domain.security.hashing.HashingService/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user-repository-impl/-user-repository-impl.html
+$dokka.location:com.hopcape.data.user/UserRepositoryImpl/authenticateUser/#kotlin.String#kotlin.String#com.hopcape.domain.security.token.TokenConfig/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user-repository-impl/authenticate-user.html
+$dokka.location:com.hopcape.data.user/UserRepositoryImpl/createUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user-repository-impl/create-user.html
+$dokka.location:com.hopcape.data.user/UserRepositoryImpl/deleteUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user-repository-impl/delete-user.html
+$dokka.location:com.hopcape.data.user/UserRepositoryImpl/getUserByEmail/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user-repository-impl/get-user-by-email.html
+$dokka.location:com.hopcape.data.user/UserRepositoryImpl/getUserById/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user-repository-impl/get-user-by-id.html
+$dokka.location:com.hopcape.data.user/UserRepositoryImpl/getUsers/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user-repository-impl/get-users.html
+$dokka.location:com.hopcape.data.user/UserRepositoryImpl/updateUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.data.user/-user-repository-impl/update-user.html
+$dokka.location:com.hopcape.di////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.di/index.html
+$dokka.location:com.hopcape.di//appModule/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.di/app-module.html
+$dokka.location:com.hopcape.di//securityModule/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.di/security-module.html
+$dokka.location:com.hopcape.domain.article////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.article/index.html
+$dokka.location:com.hopcape.domain.article/ArticleDataSource///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.article/-article-data-source/index.html
+$dokka.location:com.hopcape.domain.article/ArticleDataSource/deleteArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.article/-article-data-source/delete-article.html
+$dokka.location:com.hopcape.domain.article/ArticleDataSource/getAllArticles/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.article/-article-data-source/get-all-articles.html
+$dokka.location:com.hopcape.domain.article/ArticleDataSource/getArticleById/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.article/-article-data-source/get-article-by-id.html
+$dokka.location:com.hopcape.domain.article/ArticleDataSource/getArticleByQuery/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.article/-article-data-source/get-article-by-query.html
+$dokka.location:com.hopcape.domain.article/ArticleDataSource/getPagedArticles/#kotlin.Int#kotlin.Int/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.article/-article-data-source/get-paged-articles.html
+$dokka.location:com.hopcape.domain.article/ArticleDataSource/insertArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.article/-article-data-source/insert-article.html
+$dokka.location:com.hopcape.domain.article/ArticleDataSource/updateArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.article/-article-data-source/update-article.html
+$dokka.location:com.hopcape.domain.repository////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/index.html
+$dokka.location:com.hopcape.domain.repository/ArticleRepository///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-article-repository/index.html
+$dokka.location:com.hopcape.domain.repository/ArticleRepository/deleteArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-article-repository/delete-article.html
+$dokka.location:com.hopcape.domain.repository/ArticleRepository/getAllArticles/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-article-repository/get-all-articles.html
+$dokka.location:com.hopcape.domain.repository/ArticleRepository/getArticleById/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-article-repository/get-article-by-id.html
+$dokka.location:com.hopcape.domain.repository/ArticleRepository/getArticleByQuery/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-article-repository/get-article-by-query.html
+$dokka.location:com.hopcape.domain.repository/ArticleRepository/getPagedArticles/#kotlin.Int#kotlin.Int/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-article-repository/get-paged-articles.html
+$dokka.location:com.hopcape.domain.repository/ArticleRepository/insertArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-article-repository/insert-article.html
+$dokka.location:com.hopcape.domain.repository/ArticleRepository/updateArticle/#com.hopcape.data.article.ArticleModel/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-article-repository/update-article.html
+$dokka.location:com.hopcape.domain.repository/UserRepository.IncorrectPassword///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/-incorrect-password/index.html
+$dokka.location:com.hopcape.domain.repository/UserRepository.IncorrectPassword/IncorrectPassword/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/-incorrect-password/-incorrect-password.html
+$dokka.location:com.hopcape.domain.repository/UserRepository.IncorrectUsername///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/-incorrect-username/index.html
+$dokka.location:com.hopcape.domain.repository/UserRepository.IncorrectUsername/IncorrectUsername/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/-incorrect-username/-incorrect-username.html
+$dokka.location:com.hopcape.domain.repository/UserRepository///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/index.html
+$dokka.location:com.hopcape.domain.repository/UserRepository/authenticateUser/#kotlin.String#kotlin.String#com.hopcape.domain.security.token.TokenConfig/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/authenticate-user.html
+$dokka.location:com.hopcape.domain.repository/UserRepository/createUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/create-user.html
+$dokka.location:com.hopcape.domain.repository/UserRepository/deleteUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/delete-user.html
+$dokka.location:com.hopcape.domain.repository/UserRepository/getUserByEmail/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/get-user-by-email.html
+$dokka.location:com.hopcape.domain.repository/UserRepository/getUserById/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/get-user-by-id.html
+$dokka.location:com.hopcape.domain.repository/UserRepository/getUsers/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/get-users.html
+$dokka.location:com.hopcape.domain.repository/UserRepository/updateUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.repository/-user-repository/update-user.html
+$dokka.location:com.hopcape.domain.security.hashing////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.hashing/index.html
+$dokka.location:com.hopcape.domain.security.hashing/HashingService///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.hashing/-hashing-service/index.html
+$dokka.location:com.hopcape.domain.security.hashing/HashingService/generateSaltedHash/#kotlin.String#kotlin.Int/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.hashing/-hashing-service/generate-salted-hash.html
+$dokka.location:com.hopcape.domain.security.hashing/HashingService/verify/#kotlin.String#com.hopcape.domain.security.hashing.SaltedHash/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.hashing/-hashing-service/verify.html
+$dokka.location:com.hopcape.domain.security.hashing/SaltedHash///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.hashing/-salted-hash/index.html
+$dokka.location:com.hopcape.domain.security.hashing/SaltedHash/SaltedHash/#kotlin.String#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.hashing/-salted-hash/-salted-hash.html
+$dokka.location:com.hopcape.domain.security.hashing/SaltedHash/hash/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.hashing/-salted-hash/hash.html
+$dokka.location:com.hopcape.domain.security.hashing/SaltedHash/salt/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.hashing/-salted-hash/salt.html
+$dokka.location:com.hopcape.domain.security.token////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/index.html
+$dokka.location:com.hopcape.domain.security.token/TokenClaim///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-claim/index.html
+$dokka.location:com.hopcape.domain.security.token/TokenClaim/TokenClaim/#kotlin.String#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-claim/-token-claim.html
+$dokka.location:com.hopcape.domain.security.token/TokenClaim/name/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-claim/name.html
+$dokka.location:com.hopcape.domain.security.token/TokenClaim/value/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-claim/value.html
+$dokka.location:com.hopcape.domain.security.token/TokenConfig///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-config/index.html
+$dokka.location:com.hopcape.domain.security.token/TokenConfig/TokenConfig/#kotlin.String#kotlin.String#kotlin.String#kotlin.Long/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-config/-token-config.html
+$dokka.location:com.hopcape.domain.security.token/TokenConfig/audience/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-config/audience.html
+$dokka.location:com.hopcape.domain.security.token/TokenConfig/expiresAt/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-config/expires-at.html
+$dokka.location:com.hopcape.domain.security.token/TokenConfig/issuer/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-config/issuer.html
+$dokka.location:com.hopcape.domain.security.token/TokenConfig/secret/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-config/secret.html
+$dokka.location:com.hopcape.domain.security.token/TokenService.Companion///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-service/-companion/index.html
+$dokka.location:com.hopcape.domain.security.token/TokenService.Companion/DEFAULT_TOKEN_EXPIRATION/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-service/-companion/-d-e-f-a-u-l-t_-t-o-k-e-n_-e-x-p-i-r-a-t-i-o-n.html
+$dokka.location:com.hopcape.domain.security.token/TokenService///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-service/index.html
+$dokka.location:com.hopcape.domain.security.token/TokenService/generate/#com.hopcape.domain.security.token.TokenConfig#kotlin.Array[com.hopcape.domain.security.token.TokenClaim]/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.security.token/-token-service/generate.html
+$dokka.location:com.hopcape.domain.usecase.validation////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/index.html
+$dokka.location:com.hopcape.domain.usecase.validation/EmailValidator///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/-email-validator/index.html
+$dokka.location:com.hopcape.domain.usecase.validation/EmailValidator/EmailValidator/#com.hopcape.domain.repository.UserRepository?/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/-email-validator/-email-validator.html
+$dokka.location:com.hopcape.domain.usecase.validation/EmailValidator/invoke/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/-email-validator/invoke.html
+$dokka.location:com.hopcape.domain.usecase.validation/PasswordValidator///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/-password-validator/index.html
+$dokka.location:com.hopcape.domain.usecase.validation/PasswordValidator/PasswordValidator/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/-password-validator/-password-validator.html
+$dokka.location:com.hopcape.domain.usecase.validation/PasswordValidator/invoke/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/-password-validator/invoke.html
+$dokka.location:com.hopcape.domain.usecase.validation/ValidationResult///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/-validation-result/index.html
+$dokka.location:com.hopcape.domain.usecase.validation/ValidationResult/ValidationResult/#kotlin.Boolean#kotlin.String?/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/-validation-result/-validation-result.html
+$dokka.location:com.hopcape.domain.usecase.validation/ValidationResult/message/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/-validation-result/message.html
+$dokka.location:com.hopcape.domain.usecase.validation/ValidationResult/valid/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.usecase.validation/-validation-result/valid.html
+$dokka.location:com.hopcape.domain.user////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.user/index.html
+$dokka.location:com.hopcape.domain.user/UserDataSource///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.user/-user-data-source/index.html
+$dokka.location:com.hopcape.domain.user/UserDataSource/deleteUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.user/-user-data-source/delete-user.html
+$dokka.location:com.hopcape.domain.user/UserDataSource/deleteUserByEmail/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.user/-user-data-source/delete-user-by-email.html
+$dokka.location:com.hopcape.domain.user/UserDataSource/deleteUserByUserId/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.user/-user-data-source/delete-user-by-user-id.html
+$dokka.location:com.hopcape.domain.user/UserDataSource/getAllUsers/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.user/-user-data-source/get-all-users.html
+$dokka.location:com.hopcape.domain.user/UserDataSource/getUserByEmail/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.user/-user-data-source/get-user-by-email.html
+$dokka.location:com.hopcape.domain.user/UserDataSource/getUserById/#kotlin.String/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.user/-user-data-source/get-user-by-id.html
+$dokka.location:com.hopcape.domain.user/UserDataSource/insertUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.user/-user-data-source/insert-user.html
+$dokka.location:com.hopcape.domain.user/UserDataSource/updateUser/#com.hopcape.data.user.User/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.domain.user/-user-data-source/update-user.html
+$dokka.location:com.hopcape.plugins////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.plugins/index.html
+$dokka.location:com.hopcape.plugins//configureMonitoring/io.ktor.server.application.Application#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.plugins/configure-monitoring.html
+$dokka.location:com.hopcape.plugins//configureRouting/io.ktor.server.application.Application#com.hopcape.domain.security.token.TokenConfig/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.plugins/configure-routing.html
+$dokka.location:com.hopcape.plugins//configureSecurity/io.ktor.server.application.Application#com.hopcape.domain.security.token.TokenConfig/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.plugins/configure-security.html
+$dokka.location:com.hopcape.plugins//configureSerialization/io.ktor.server.application.Application#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.plugins/configure-serialization.html
+$dokka.location:com.hopcape.routing.admin.articles////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.admin.articles/index.html
+$dokka.location:com.hopcape.routing.admin.articles//addArticle/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.admin.articles/add-article.html
+$dokka.location:com.hopcape.routing.admin.articles//deleteArticle/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.admin.articles/delete-article.html
+$dokka.location:com.hopcape.routing.admin.articles//updateArticle/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.admin.articles/update-article.html
+$dokka.location:com.hopcape.routing.admin.users////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.admin.users/index.html
+$dokka.location:com.hopcape.routing.admin.users//deleteUser/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.admin.users/delete-user.html
+$dokka.location:com.hopcape.routing.admin.users//getAllUsers/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.admin.users/get-all-users.html
+$dokka.location:com.hopcape.routing.admin////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.admin/index.html
+$dokka.location:com.hopcape.routing.admin//adminRoutes/io.ktor.server.application.Application#com.hopcape.domain.security.token.TokenConfig/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.admin/admin-routes.html
+$dokka.location:com.hopcape.routing.common.users.articles////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.common.users.articles/index.html
+$dokka.location:com.hopcape.routing.common.users.articles//getAllArticles/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.common.users.articles/get-all-articles.html
+$dokka.location:com.hopcape.routing.common.users.articles//getArticle/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.common.users.articles/get-article.html
+$dokka.location:com.hopcape.routing.common.users.articles//getArticlesPage/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.common.users.articles/get-articles-page.html
+$dokka.location:com.hopcape.routing.common.users.user////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.common.users.user/index.html
+$dokka.location:com.hopcape.routing.common.users.user//updateUser/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.common.users.user/update-user.html
+$dokka.location:com.hopcape.routing.common////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.common/index.html
+$dokka.location:com.hopcape.routing.common//commonRoutes/io.ktor.server.application.Application#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.common/common-routes.html
+$dokka.location:com.hopcape.routing.user////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.user/index.html
+$dokka.location:com.hopcape.routing.user//authenticate/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.user/authenticate.html
+$dokka.location:com.hopcape.routing.user//signIn/io.ktor.server.routing.Routing#com.hopcape.domain.security.token.TokenConfig/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.user/sign-in.html
+$dokka.location:com.hopcape.routing.user//signUp/io.ktor.server.routing.Routing#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.user/sign-up.html
+$dokka.location:com.hopcape.routing.user//userRoutes/io.ktor.server.application.Application#com.hopcape.domain.security.token.TokenConfig/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.user/user-routes.html
+$dokka.location:com.hopcape.routing.utils////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/index.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.AdminRoutes///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-admin-routes/index.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.AdminRoutes/ARTICLE_ROUTE/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-admin-routes/-a-r-t-i-c-l-e_-r-o-u-t-e.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.AdminRoutes/DELETE_USER/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-admin-routes/-d-e-l-e-t-e_-u-s-e-r.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.AdminRoutes/GET_ALL_USERS/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-admin-routes/-g-e-t_-a-l-l_-u-s-e-r-s.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.CommonRoutes///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-common-routes/index.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.CommonRoutes/ALL_ARTICLES_ROUTE/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-common-routes/-a-l-l_-a-r-t-i-c-l-e-s_-r-o-u-t-e.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.CommonRoutes/ARTICLES_PAGE/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-common-routes/-a-r-t-i-c-l-e-s_-p-a-g-e.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.CommonRoutes/ARTICLE_ROUTE/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-common-routes/-a-r-t-i-c-l-e_-r-o-u-t-e.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.CommonRoutes/USER_ROUTE/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-common-routes/-u-s-e-r_-r-o-u-t-e.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.Params///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-params/index.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.Params/ARTICLE_ID/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-params/-a-r-t-i-c-l-e_-i-d.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.Params/ARTICLE_TITLE/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-params/-a-r-t-i-c-l-e_-t-i-t-l-e.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.Params/DEFAULT_ARTICLES_LIMIT_PER_PAGE/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-params/-d-e-f-a-u-l-t_-a-r-t-i-c-l-e-s_-l-i-m-i-t_-p-e-r_-p-a-g-e.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.Params/EMAIL_QUERY/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-params/-e-m-a-i-l_-q-u-e-r-y.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.Params/ID_QUERY/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-params/-i-d_-q-u-e-r-y.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.Params/LIMIT_QUERY/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-params/-l-i-m-i-t_-q-u-e-r-y.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.Params/PAGE_QUERY/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-params/-p-a-g-e_-q-u-e-r-y.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.UserRoutes///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-user-routes/index.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.UserRoutes/AUTHENTICATE_ROUTE/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-user-routes/-a-u-t-h-e-n-t-i-c-a-t-e_-r-o-u-t-e.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.UserRoutes/SIGN_IN_ROUTE/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-user-routes/-s-i-g-n_-i-n_-r-o-u-t-e.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper.UserRoutes/SIGN_UP_ROUTE/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/-user-routes/-s-i-g-n_-u-p_-r-o-u-t-e.html
+$dokka.location:com.hopcape.routing.utils/RouterHelper///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing.utils/-router-helper/index.html
+$dokka.location:com.hopcape.routing////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing/index.html
+$dokka.location:com.hopcape.routing//userRoutes/io.ktor.server.application.Application#com.hopcape.domain.security.token.TokenConfig/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.routing/user-routes.html
+$dokka.location:com.hopcape.security.hashing////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.hashing/index.html
+$dokka.location:com.hopcape.security.hashing/SHA256HashingService.Companion///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.hashing/-s-h-a256-hashing-service/-companion/index.html
+$dokka.location:com.hopcape.security.hashing/SHA256HashingService.Companion/SECURE_RANDOM_ALGORITHM/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.hashing/-s-h-a256-hashing-service/-companion/-s-e-c-u-r-e_-r-a-n-d-o-m_-a-l-g-o-r-i-t-h-m.html
+$dokka.location:com.hopcape.security.hashing/SHA256HashingService///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.hashing/-s-h-a256-hashing-service/index.html
+$dokka.location:com.hopcape.security.hashing/SHA256HashingService/SHA256HashingService/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.hashing/-s-h-a256-hashing-service/-s-h-a256-hashing-service.html
+$dokka.location:com.hopcape.security.hashing/SHA256HashingService/generateSaltedHash/#kotlin.String#kotlin.Int/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.hashing/-s-h-a256-hashing-service/generate-salted-hash.html
+$dokka.location:com.hopcape.security.hashing/SHA256HashingService/verify/#kotlin.String#com.hopcape.domain.security.hashing.SaltedHash/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.hashing/-s-h-a256-hashing-service/verify.html
+$dokka.location:com.hopcape.security.token////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.token/index.html
+$dokka.location:com.hopcape.security.token/JwtTokenService///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.token/-jwt-token-service/index.html
+$dokka.location:com.hopcape.security.token/JwtTokenService/JwtTokenService/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.token/-jwt-token-service/-jwt-token-service.html
+$dokka.location:com.hopcape.security.token/JwtTokenService/generate/#com.hopcape.domain.security.token.TokenConfig#kotlin.Array[com.hopcape.domain.security.token.TokenClaim]/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.security.token/-jwt-token-service/generate.html
+$dokka.location:com.hopcape.utils////PointingToDeclaration/com.hopcape.news-backend/com.hopcape.utils/index.html
+$dokka.location:com.hopcape.utils/Constants///PointingToDeclaration/com.hopcape.news-backend/com.hopcape.utils/-constants/index.html
+$dokka.location:com.hopcape.utils/Constants/ARTICLES_TABLE_NAME/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.utils/-constants/-a-r-t-i-c-l-e-s_-t-a-b-l-e_-n-a-m-e.html
+$dokka.location:com.hopcape.utils/Constants/CONNECTION_STRING/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.utils/-constants/-c-o-n-n-e-c-t-i-o-n_-s-t-r-i-n-g.html
+$dokka.location:com.hopcape.utils/Constants/DB_NAME/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.utils/-constants/-d-b_-n-a-m-e.html
+$dokka.location:com.hopcape.utils/Constants/USERS_TABLE_NAME/#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape.utils/-constants/-u-s-e-r-s_-t-a-b-l-e_-n-a-m-e.html
+$dokka.location:com.hopcape////PointingToDeclaration/com.hopcape.news-backend/com.hopcape/index.html
+$dokka.location:com.hopcape//main/#kotlin.Array[kotlin.String]/PointingToDeclaration/com.hopcape.news-backend/com.hopcape/main.html
+$dokka.location:com.hopcape//module/io.ktor.server.application.Application#/PointingToDeclaration/com.hopcape.news-backend/com.hopcape/module.html
+com.hopcape
+com.hopcape.data.article
+com.hopcape.data.request.article
+com.hopcape.data.request.user
+com.hopcape.data.response
+com.hopcape.data.response.article
+com.hopcape.data.user
+com.hopcape.di
+com.hopcape.domain.article
+com.hopcape.domain.repository
+com.hopcape.domain.security.hashing
+com.hopcape.domain.security.token
+com.hopcape.domain.usecase.validation
+com.hopcape.domain.user
+com.hopcape.plugins
+com.hopcape.routing
+com.hopcape.routing.admin
+com.hopcape.routing.admin.articles
+com.hopcape.routing.admin.users
+com.hopcape.routing.common
+com.hopcape.routing.common.users.articles
+com.hopcape.routing.common.users.user
+com.hopcape.routing.user
+com.hopcape.routing.utils
+com.hopcape.security.hashing
+com.hopcape.security.token
+com.hopcape.utils
+

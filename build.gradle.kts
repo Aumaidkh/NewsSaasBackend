@@ -10,10 +10,15 @@ plugins {
     kotlin("jvm") version "1.9.10"
     id("io.ktor.plugin") version "2.3.5"
     id("org.jetbrains.kotlin.plugin.serialization") version "1.9.10"
+    id("org.jetbrains.dokka") version "1.9.10"
 }
 
 group = "com.hopcape"
 version = "0.0.1"
+
+tasks.dokkaHtml {
+    outputDirectory.set(rootProject.file("documentation/html"))
+}
 
 application {
     mainClass.set("io.ktor.server.netty.EngineMain")
@@ -44,4 +49,6 @@ dependencies {
     // Koin
     implementation("io.insert-koin:koin-ktor:$koin_version")
     implementation("io.insert-koin:koin-logger-slf4j:$koin_version")
+
+    dokkaPlugin("org.jetbrains.dokka:android-documentation-plugin:1.9.10")
 }
