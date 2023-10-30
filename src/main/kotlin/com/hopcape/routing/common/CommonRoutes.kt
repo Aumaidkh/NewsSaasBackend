@@ -1,9 +1,9 @@
 package com.hopcape.routing.common
 
-import com.hopcape.routing.common.users.articles.getAllArticles
-import com.hopcape.routing.common.users.articles.getArticle
-import com.hopcape.routing.common.users.articles.getArticlesPage
-import com.hopcape.routing.common.users.user.updateUser
+import com.hopcape.routing.common.articles.getAllArticles
+import com.hopcape.routing.common.articles.getArticle
+import com.hopcape.routing.common.articles.getArticlesPage
+import com.hopcape.routing.common.user.updateUser
 import io.ktor.server.application.*
 import io.ktor.server.routing.*
 

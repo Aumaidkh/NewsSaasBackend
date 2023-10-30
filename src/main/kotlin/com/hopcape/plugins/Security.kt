@@ -6,6 +6,8 @@ import com.hopcape.domain.security.token.TokenConfig
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
 import io.ktor.server.auth.jwt.*
+import io.ktor.server.sessions.*
+import io.ktor.util.*
 
 fun Application.configureSecurity(
     tokenConfig: TokenConfig

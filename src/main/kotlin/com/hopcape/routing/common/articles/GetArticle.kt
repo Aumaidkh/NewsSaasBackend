@@ -1,4 +1,4 @@
-package com.hopcape.routing.common.users.articles
+package com.hopcape.routing.common.articles
 
 import com.hopcape.domain.repository.ArticleRepository
 import com.hopcape.routing.utils.RouterHelper.CommonRoutes.ARTICLE_ROUTE
