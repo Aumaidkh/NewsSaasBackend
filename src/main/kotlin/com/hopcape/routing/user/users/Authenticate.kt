@@ -1,4 +1,4 @@
-package com.hopcape.routing.user
+package com.hopcape.routing.user.users
 
 import com.hopcape.routing.utils.RouterHelper.UserRoutes.AUTHENTICATE_ROUTE
 import io.ktor.http.*

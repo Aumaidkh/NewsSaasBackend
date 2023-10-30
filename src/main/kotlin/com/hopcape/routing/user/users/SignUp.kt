@@ -1,4 +1,4 @@
-package com.hopcape.routing.user
+package com.hopcape.routing.user.users
 
 import com.hopcape.data.request.user.SignUpRequest
 import com.hopcape.data.user.User
@@ -6,7 +6,6 @@ import com.hopcape.domain.repository.UserRepository
 import com.hopcape.domain.usecase.validation.EmailValidator
 import com.hopcape.domain.usecase.validation.PasswordValidator
 import com.hopcape.routing.utils.RouterHelper
-import com.hopcape.routing.utils.RouterHelper.UserRoutes.SIGN_UP_ROUTE
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*

@@ -3,6 +3,7 @@ package com.hopcape
 import com.hopcape.data.comment.Comment
 import com.hopcape.di.appModule
 import com.hopcape.di.securityModule
+import com.hopcape.di.validationModule
 import com.hopcape.domain.comment.CommentDatasource
 import com.hopcape.domain.security.token.TokenConfig
 import com.hopcape.domain.security.token.TokenService
@@ -30,7 +31,7 @@ fun Application.module() {
 
     install(Koin) {
         slf4jLogger()
-        modules(appModule, securityModule)
+        modules(appModule, securityModule, validationModule)
     }
     configureSerialization()
     configureMonitoring()

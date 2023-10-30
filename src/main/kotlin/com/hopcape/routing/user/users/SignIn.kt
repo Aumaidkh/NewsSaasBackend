@@ -1,4 +1,4 @@
-package com.hopcape.routing.user
+package com.hopcape.routing.user.users
 
 import com.hopcape.data.request.user.SignInRequest
 import com.hopcape.data.response.SignInResponse

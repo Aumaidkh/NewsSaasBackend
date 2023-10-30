@@ -13,6 +13,8 @@ import com.hopcape.domain.repository.ArticleRepository
 import com.hopcape.domain.repository.UserRepository
 import com.hopcape.domain.security.hashing.HashingService
 import com.hopcape.domain.security.token.TokenService
+import com.hopcape.domain.usecase.validation.CommentValidator
+import com.hopcape.domain.usecase.validation.EmailValidator
 import com.hopcape.domain.user.UserDataSource
 import com.hopcape.security.hashing.SHA256HashingService
 import com.hopcape.security.token.JwtTokenService
@@ -39,8 +41,11 @@ val appModule = module {
 
 val securityModule = module {
 
-
     single<HashingService> { SHA256HashingService() }
 
     single<TokenService> { JwtTokenService() }
+}
+
+val validationModule = module {
+    single<CommentValidator> { CommentValidator(get()) }
 }
