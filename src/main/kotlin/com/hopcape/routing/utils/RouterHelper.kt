@@ -6,6 +6,7 @@ object RouterHelper {
         const val SIGN_UP_ROUTE = "user/signup"
         const val SIGN_IN_ROUTE = "user/signin"
         const val AUTHENTICATE_ROUTE = "user/authenticate"
+        const val ADD_COMMENT = "/comment"
 
     }
 

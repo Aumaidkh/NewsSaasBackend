@@ -27,10 +27,10 @@ class CommentValidator(
             )
         }
 
-        if (articleExists(request.contentId)){
+        if (!articleExists(request.contentId)){
             return ValidationResult(
                 valid = false,
-                message = "Please ensure the comment is not empty"
+                message = "The article doesn't exist"
             )
         }
 

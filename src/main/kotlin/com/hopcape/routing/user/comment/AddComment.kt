@@ -8,6 +8,7 @@ import com.hopcape.domain.comment.CommentRepository
 import com.hopcape.domain.repository.ArticleRepository
 import com.hopcape.domain.usecase.validation.CommentValidator
 import com.hopcape.routing.utils.RouterHelper.CommonRoutes.COMMENT_ROUTE
+import com.hopcape.routing.utils.RouterHelper.UserRoutes.ADD_COMMENT
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
@@ -27,7 +28,7 @@ fun Routing.addComment(){
     val repository by inject<CommentRepository>()
     val validator by inject<CommentValidator>()
     authenticate {
-        post(COMMENT_ROUTE){
+        post(ADD_COMMENT){
             val request = runCatching { call.receiveNullable<CommentRequest?>() }.getOrNull() ?: run {
                 call.respond(
                     status = HttpStatusCode.BadRequest,
