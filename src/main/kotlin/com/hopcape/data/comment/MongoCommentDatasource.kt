@@ -7,10 +7,7 @@ import com.mongodb.client.model.Filters
 import com.mongodb.client.model.Sorts
 import com.mongodb.client.model.Updates
 import com.mongodb.kotlin.client.coroutine.MongoDatabase
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.emptyFlow
-import kotlinx.coroutines.flow.firstOrNull
-import kotlinx.coroutines.flow.toList
+import kotlinx.coroutines.flow.*
 
 class MongoCommentDatasource(
     private val db: MongoDatabase
@@ -136,10 +133,10 @@ class MongoCommentDatasource(
         } ?: emptyList()
     }
 
-    override suspend fun getRecentComments(limit: Int): List<Comment> {
+    override suspend fun getRecentComments(contentId: String, limit: Int): List<Comment> {
         return safeDatabaseOperation {
             commentCollection
-                .find()
+                .find(Filters.eq(Comment::contentId.name,contentId))
                 .sort(Sorts.descending(Comment::addedAt.name))
                 .limit(limit)
                 .toList()
@@ -147,10 +144,15 @@ class MongoCommentDatasource(
     }
 
     override suspend fun getCommentsFlowFor(contentId: String): Flow<List<Comment>> {
+
         return safeDatabaseOperation {
             commentCollection
-                .find<List<Comment>>()
-                .sort(Sorts.descending(Comment::addedAt.name))
+                .find(Filters.eq(Comment::contentId.name,contentId))
+                .toList()
+                .toList()
+                .run {
+                    flowOf(this)
+                }
         } ?: emptyFlow()
     }
 }

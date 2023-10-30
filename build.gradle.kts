@@ -50,5 +50,9 @@ dependencies {
     implementation("io.insert-koin:koin-ktor:$koin_version")
     implementation("io.insert-koin:koin-logger-slf4j:$koin_version")
 
+    // Dokka Plugin For Documentation
     dokkaPlugin("org.jetbrains.dokka:android-documentation-plugin:1.9.10")
+
+    // WebSockets
+    implementation("io.ktor:ktor-server-websockets:$ktor_version")
 }

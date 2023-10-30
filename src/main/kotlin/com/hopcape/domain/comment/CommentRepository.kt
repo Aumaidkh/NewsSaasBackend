@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.Flow
 /**
  * Interface for managing comments in a data source.
  */
-interface CommentDatasource {
+interface CommentRepository {
 
     /**
      * Inserts a comment associated with a specific content item.
@@ -117,7 +117,7 @@ interface CommentDatasource {
      * @param limit The maximum number of comments to retrieve (optional).
      * @return A list of the most recent comments.
      */
-    suspend fun getRecentComments(contentId: String,limit: Int = 10): List<Comment>
+    suspend fun getRecentComments(contentId: String, limit: Int): List<Comment>
 
 
     /**

@@ -4,9 +4,11 @@ import com.hopcape.data.article.MongoArticleDatasource
 import com.hopcape.data.user.MongoUserDataSource
 import com.hopcape.data.user.UserRepositoryImpl
 import com.hopcape.data.article.ArticleRepositoryImpl
+import com.hopcape.data.comment.CommentRepositoryImpl
 import com.hopcape.data.comment.MongoCommentDatasource
 import com.hopcape.domain.article.ArticleDataSource
 import com.hopcape.domain.comment.CommentDatasource
+import com.hopcape.domain.comment.CommentRepository
 import com.hopcape.domain.repository.ArticleRepository
 import com.hopcape.domain.repository.UserRepository
 import com.hopcape.domain.security.hashing.HashingService
@@ -31,6 +33,7 @@ val appModule = module {
 
     singleOf(::UserRepositoryImpl) { bind<UserRepository>() }
     singleOf(::ArticleRepositoryImpl) { bind<ArticleRepository>() }
+    singleOf(::CommentRepositoryImpl) { bind<CommentRepository>() }
 
 }
 
