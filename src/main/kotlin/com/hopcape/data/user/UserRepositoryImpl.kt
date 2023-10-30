@@ -68,15 +68,8 @@ class UserRepositoryImpl(
 
     }
 
-    override suspend fun deleteUser(by: UserRepository.Operation.DeleteBy): Boolean {
-        return when(by){
-            is UserRepository.Operation.DeleteBy.Email -> {
-                userDataSource.deleteUserByEmail(email = by.value)
-            }
-            is UserRepository.Operation.DeleteBy.Id -> {
-                userDataSource.deleteUserByUserId(userId = by.value)
-            }
-        }
+    override suspend fun deleteUser(user: User): Boolean {
+        return userDataSource.deleteUser(user)
     }
 
     override suspend fun updateUser(user: User): Boolean {
@@ -85,5 +78,9 @@ class UserRepositoryImpl(
 
     override suspend fun getUserById(userId: String): User? {
         return userDataSource.getUserById(userId)
+    }
+
+    override suspend fun getUserByEmail(email: String): User? {
+        return userDataSource.getUserByEmail(email)
     }
 }

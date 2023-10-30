@@ -44,18 +44,22 @@ class MongoUserDataSource(
     }
 
     override suspend fun deleteUserByUserId(userId: String): Boolean {
-        return safeDatabaseOperation {
-            usersCollection.deleteOne(
-                eq("_id",userId)
-            ).wasAcknowledged()
-        } ?: false
+        val user =
+            getUserById(userId)
+        return user?.let { deleteUser(it) } ?: false
     }
 
     override suspend fun deleteUserByEmail(email: String): Boolean {
+        val user =
+            getUserByEmail(email)
+        return user?.let { deleteUser(it) } ?: false
+    }
+
+    override suspend fun deleteUser(user: User): Boolean {
         return safeDatabaseOperation {
             usersCollection.deleteOne(
-                eq(User::email.name,email)
-            ).wasAcknowledged()
+                eq("_id",user.id)
+            ).deletedCount > 0
         } ?: false
     }
 

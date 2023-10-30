@@ -28,7 +28,7 @@ interface UserRepository {
 
     /**
      * Delete a user with */
-    suspend fun deleteUser(by: Operation.DeleteBy): Boolean
+    suspend fun deleteUser(user: User): Boolean
 
     /**
      * Updates a
@@ -42,15 +42,16 @@ interface UserRepository {
      * @return [User]*/
     suspend fun getUserById(userId: String): User?
 
+
+    /**
+     * @return [User]
+     * by
+     * @param email*/
+    suspend fun getUserByEmail(email: String): User?
+
     class IncorrectPassword: Exception("Incorrect Password")
 
     class IncorrectUsername: Exception("Incorrect Username or Password")
 
-    sealed interface Operation{
-        sealed interface DeleteBy{
-            data class Email(val value: String): DeleteBy
-            data class Id(val value: String): DeleteBy
-        }
-    }
 }
 

@@ -15,23 +15,32 @@ fun Routing.deleteUser(){
     delete(DELETE_USER){
         val containsEmail = call.parameters.contains(EMAIL_QUERY)
         val containsId = call.parameters.contains(ID_QUERY)
-        val deleted = if (containsEmail){
+
+        // Get Hold of user
+        // Either by email or by Id
+        val user = if (containsEmail){
             val email = call.parameters[EMAIL_QUERY]
             if (email == null){
                 call.respond(HttpStatusCode.NotFound)
                 return@delete
             }
-            userRepository.deleteUser(by = UserRepository.Operation.DeleteBy.Email(email))
-        } else if (containsId) {
+            userRepository.getUserByEmail(email)
+        } else {
             val id = call.parameters[ID_QUERY]
             if (id == null){
                 call.respond(HttpStatusCode.NotFound)
                 return@delete
             }
-            userRepository.deleteUser(by = UserRepository.Operation.DeleteBy.Id(id))
-        } else {
-            false
+            userRepository.getUserById(id)
         }
+
+        // If user is not found
+        if (user == null){
+            call.respond(HttpStatusCode.NotFound,"User not found")
+            return@delete
+        }
+
+        val deleted = userRepository.deleteUser(user)
 
         if (!deleted){
             call.respond(HttpStatusCode.NoContent,"Can't Delete User")

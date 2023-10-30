@@ -42,6 +42,13 @@ interface UserDataSource {
 
 
     /**
+     * Deletes the
+     * @param user
+     * */
+    suspend fun deleteUser(user: User): Boolean
+
+
+    /**
      * Updates a
      * @param user
      * @return [Boolean] whether user was updated or not*/
