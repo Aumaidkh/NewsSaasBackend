@@ -32,7 +32,7 @@ fun Routing.signUp(){
         }
 
         // Validate email
-        EmailValidator().invoke(request.email).also {
+        EmailValidator(userRepository).invoke(request.email).also {
             if (!it.valid){
                 call.respond(
                     status = HttpStatusCode.BadRequest,

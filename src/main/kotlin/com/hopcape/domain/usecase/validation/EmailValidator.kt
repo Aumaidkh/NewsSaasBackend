@@ -1,11 +1,12 @@
 package com.hopcape.domain.usecase.validation
 
+import com.hopcape.domain.repository.UserRepository
 import java.util.regex.Pattern
 
 
-class EmailValidator{
+class EmailValidator(private val userRepository: UserRepository? = null){
     private val EMAIL_REGEX = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\$"
-    operator fun invoke(value: String): ValidationResult{
+    suspend operator fun invoke(value: String): ValidationResult{
         if (value.isBlank()){
             return ValidationResult(
                 valid = false,
@@ -17,6 +18,16 @@ class EmailValidator{
             return ValidationResult(
                 valid = false,
                 message = "Invalid email"
+            )
+        }
+
+        val existingUser =
+            userRepository?.getUserByEmail(email = value)
+
+        if (existingUser!=null){
+            return ValidationResult(
+                valid = false,
+                message = "Email already associated with other account."
             )
         }
 
