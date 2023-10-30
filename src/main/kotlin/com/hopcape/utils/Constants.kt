@@ -6,4 +6,5 @@ object Constants {
     const val DB_NAME = "NewsSaaS"
     const val USERS_TABLE_NAME = "user"
     const val ARTICLES_TABLE_NAME = "article"
+    const val COMMENTS_TABLE_NAME = "comment"
 }
