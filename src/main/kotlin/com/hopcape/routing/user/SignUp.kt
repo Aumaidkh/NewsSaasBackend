@@ -5,6 +5,7 @@ import com.hopcape.data.user.User
 import com.hopcape.domain.repository.UserRepository
 import com.hopcape.domain.usecase.validation.EmailValidator
 import com.hopcape.domain.usecase.validation.PasswordValidator
+import com.hopcape.routing.utils.RouterHelper
 import com.hopcape.routing.utils.RouterHelper.UserRoutes.SIGN_UP_ROUTE
 import io.ktor.http.*
 import io.ktor.server.application.*
@@ -21,7 +22,7 @@ fun Routing.signUp(){
     val userRepository by inject<UserRepository>()
     /**
      * This route*/
-    post(SIGN_UP_ROUTE){
+    post(RouterHelper.CommonRoutes.USER_ROUTE){
         val request = runCatching { call.receiveNullable<SignUpRequest?>() }.getOrNull() ?: kotlin.run {
             call.respond(
                 status = HttpStatusCode.BadRequest,
