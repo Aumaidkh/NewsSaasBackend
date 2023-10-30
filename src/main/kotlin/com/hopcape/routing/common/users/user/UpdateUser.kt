@@ -1,4 +1,4 @@
-package com.hopcape.routing.common.users
+package com.hopcape.routing.common.users.user
 
 import com.hopcape.data.request.user.UpdateUserRequest
 import com.hopcape.data.user.User
