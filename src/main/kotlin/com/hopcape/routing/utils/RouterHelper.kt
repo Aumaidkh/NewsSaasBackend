@@ -15,6 +15,7 @@ object RouterHelper {
         const val PAGE_QUERY = "page"
         const val LIMIT_QUERY = "limit"
         const val DEFAULT_ARTICLES_LIMIT_PER_PAGE = 1
+        const val DEFAULT_COMMENTS_LIMIT_PER_PAGE = 1
         const val ID_QUERY = "id"
         const val EMAIL_QUERY = "email"
     }
@@ -30,5 +31,7 @@ object RouterHelper {
         const val ALL_ARTICLES_ROUTE = "/articles"
         const val ARTICLES_PAGE = "/paged-articles"
         const val USER_ROUTE= "/user"
+        const val COMMENT_ROUTE = "/comments"
+        const val PAGINATED_COMMENT_ROUTE = "/paged-comments"
     }
 }

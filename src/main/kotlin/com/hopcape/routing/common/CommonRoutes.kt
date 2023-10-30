@@ -3,6 +3,9 @@ package com.hopcape.routing.common
 import com.hopcape.routing.common.articles.getAllArticles
 import com.hopcape.routing.common.articles.getArticle
 import com.hopcape.routing.common.articles.getArticlesPage
+import com.hopcape.routing.common.comment.deleteComment
+import com.hopcape.routing.common.comment.getComments
+import com.hopcape.routing.common.comment.getCommentsPagination
 import com.hopcape.routing.common.user.updateUser
 import io.ktor.server.application.*
 import io.ktor.server.routing.*
@@ -17,5 +20,8 @@ fun Application.commonRoutes(){
         getArticle()
         getAllArticles()
         getArticlesPage()
+        deleteComment()
+        getComments()
+        getCommentsPagination()
     }
 }
