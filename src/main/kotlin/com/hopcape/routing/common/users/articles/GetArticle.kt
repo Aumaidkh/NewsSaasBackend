@@ -11,6 +11,11 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import org.koin.ktor.ext.inject
 
+/**
+ * @receiver [Routing]
+ * Exposes an endpoint at [ARTICLE_ROUTE] with [get] method
+ * and [ARTICLE_ID] or [ARTICLE_TITLE] passed as query param
+ * @return Article */
 fun Routing.getArticle(){
     val repository by inject<ArticleRepository>()
     authenticate {

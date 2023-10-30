@@ -14,6 +14,12 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import org.koin.ktor.ext.inject
 
+/**
+ * @receiver [Routing]
+ * Exposes a [post] endpoint at [SIGN_IN_ROUTE]
+ * accepting [SignInRequest] as body and signs in the user
+ * with [SignInRequest.email] and [SignInRequest.password], when signed in
+ * @return [SignInResponse] containing authToken*/
 fun Routing.signIn(
     tokenConfig: TokenConfig
 ){

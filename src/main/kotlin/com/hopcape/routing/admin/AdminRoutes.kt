@@ -9,6 +9,9 @@ import com.hopcape.routing.admin.users.getAllUsers
 import io.ktor.server.application.*
 import io.ktor.server.routing.*
 
+/**
+ * Plugs in all the Admin routes
+ * */
 fun Application.adminRoutes(tokenConfig: TokenConfig){
     routing {
         // User Routes

@@ -10,6 +10,11 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import org.koin.ktor.ext.inject
 
+/**
+ * @receiver [Routing]
+ * exposes an endpoint to delete a user
+ * The request should have an [EMAIL_QUERY] param or [ID_QUERY]
+ * attached to it*/
 fun Routing.deleteUser(){
     val userRepository by inject<UserRepository>()
     delete(DELETE_USER){

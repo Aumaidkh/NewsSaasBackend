@@ -16,8 +16,10 @@ import org.koin.ktor.ext.inject
 
 
 /**
- * This route is responsible for registering or signing up a user
- * into the backend*/
+ * @receiver [Routing]
+ * exposes a [post] endpoint at [RouterHelper.CommonRoutes.USER_ROUTE]
+ * and accepts [SignUpRequest] as body and signs up the user after performing
+ * validation*/
 fun Routing.signUp(){
     val userRepository by inject<UserRepository>()
     /**

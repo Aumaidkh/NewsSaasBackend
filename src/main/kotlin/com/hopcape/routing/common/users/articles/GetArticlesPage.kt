@@ -13,6 +13,12 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import org.koin.ktor.ext.inject
 
+/**
+ * @receiver [Routing]
+ * Exposes a [get] endpoint at [ARTICLES_PAGE] which takes
+ * as query [PAGE_QUERY] as page number and [LIMIT_QUERY] as the limit or
+ * number or results per page
+ * @return [ArticlesResponse] */
 fun Routing.getArticlesPage(){
     val repository by inject<ArticleRepository>()
     authenticate {

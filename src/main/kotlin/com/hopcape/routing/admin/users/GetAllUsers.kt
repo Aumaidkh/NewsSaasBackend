@@ -10,6 +10,11 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import org.koin.ktor.ext.inject
 
+/**
+ * @receiver [Routing]
+ * Exposes an endpoint with path
+ * [GET_ALL_USERS] and send a list of all
+ * the users wrapped around [GetUsersResponse]*/
 fun Routing.getAllUsers(){
     val userRepository by inject<UserRepository>()
     authenticate {

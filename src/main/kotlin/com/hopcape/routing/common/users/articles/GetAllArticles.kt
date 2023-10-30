@@ -10,6 +10,10 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import org.koin.ktor.ext.inject
 
+/**
+ * @receiver [Routing]
+ * Exposes an endpoint at [ALL_ARTICLES_ROUTE] and
+ * @return [ArticlesResponse] which contains all the Articles*/
 fun Routing.getAllArticles(){
     val repository by inject<ArticleRepository>()
     authenticate {

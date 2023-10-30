@@ -12,6 +12,11 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import org.koin.ktor.ext.inject
 
+/**
+ * @receiver [Routing]
+ * Exposes a [put] endpoint at [USER_ROUTE] path and accepts
+ * [UpdateUserRequest] from the body and then updates the [User]
+ * with the [UpdateUserRequest.id]*/
 fun Routing.updateUser(){
     val repository by inject<UserRepository>()
     authenticate{
